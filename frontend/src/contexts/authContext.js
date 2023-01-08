@@ -43,7 +43,7 @@ export function AuthProvider({ children }) {
             }
         };
         getCurrentlyLoggedInUser();
-    }, [navigate]);
+    }, []);
 
     const getMe = async () => {
         let user = null;
@@ -130,6 +130,12 @@ export function AuthProvider({ children }) {
                     },
                 }
             );
+            setAuthUser((prev) => {
+                return {
+                    ...prev,
+                    user: res.data,
+                };
+            });
             user = res.data;
         } catch (err) {
             console.log(err);

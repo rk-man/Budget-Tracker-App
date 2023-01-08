@@ -3,6 +3,7 @@ import "./../styles/auth.css";
 import AuthContext from "./../contexts/authContext";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function RegisterPage() {
     const { register, authUser, reset } = useContext(AuthContext);
@@ -115,6 +116,19 @@ function RegisterPage() {
                     </button>
                     <button className="btn btn-secondary">Cancel</button>
                 </div>
+                <Link to="/auth/login" className="link">
+                    <p>
+                        Already a user ?{" "}
+                        <span
+                            style={{
+                                fontWeight: "500",
+                                textDecoration: "underline",
+                            }}
+                        >
+                            Login here
+                        </span>{" "}
+                    </p>
+                </Link>
             </form>
         </div>
     );
