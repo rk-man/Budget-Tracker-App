@@ -1,0 +1,236 @@
+.all-transactions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+    width: 100%;
+}
+
+.create-transaction-btn-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.create-transaction-btn {
+    width: 20rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    border: 0.2rem solid var(--primary-color);
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 4rem;
+}
+.create-transaction-btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.each-transaction-wrapper {
+    width: 100%;
+}
+
+.each-transaction {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.2rem solid var(--primary-color);
+    padding: 2rem 1rem;
+    position: relative;
+    min-height: 6rem;
+}
+.each-transaction:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.each-transaction-item {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 500;
+}
+
+.each-transaction-item-desc {
+    width: 40%;
+    padding-right: 6rem;
+}
+
+.transaction-headings {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.transaction-heading-item {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.transaction-heading-item-desc {
+    width: 40%;
+    padding-right: 6rem;
+}
+
+.single-transaction {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.delete-transaction-btn-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-participants {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+.each-participant {
+    border: 0.2rem solid white;
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.4rem;
+    position: relative;
+}
+.each-participant-amount-input {
+    padding: 0.4rem;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    border-radius: 0.4rem;
+    outline: none;
+    border: none;
+}
+
+.each-participant-user-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.6rem;
+    margin-bottom: 0.8rem;
+}
+
+.each-participant-username {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.each-participant-profile-img-wrapper {
+    width: 3rem;
+    height: 3rem;
+}
+
+.each-participant-paid-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    font-weight: 600;
+    background-color: white;
+    color: var(--primary-color);
+    padding: 0.4rem 1rem;
+    border-radius: 0.4rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-80%, -50%);
+    cursor: pointer;
+    border: 0.2rem solid transparent;
+    font-size: 1.4rem;
+}
+
+.each-participant-paid-icon:hover {
+    background: transparent;
+    color: white;
+    border-color: white;
+}
+
+.each-participant-delete-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-50%, 50%);
+    cursor: pointer;
+}
+
+.participants-friends-data {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.participants-friends-data p {
+    font-weight: 600;
+}
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.filters-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.filter-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.4rem;
+}
+
+.filter-option {
+    padding: 0.4rem;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+}
+
+.filter-option-item {
+    font-weight: 500;
+}
+
+.all-filters {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}

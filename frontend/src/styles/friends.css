@@ -1,0 +1,59 @@
+.all-friends {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.each-friend {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6rem;
+    min-height: 6rem;
+    border: 0.2rem solid rgba(138, 35, 255, 0.356);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+}
+
+.each-friend-username {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.accept-decline-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.each-friend-icon {
+    width: 4rem;
+    height: 4rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.each-friend-icon:hover {
+    color: black;
+}
+
+.friends-list {
+    margin-top: 2rem;
+}
+.each-friend-user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.profile-img-wrapper {
+    width: 4rem;
+    height: 4rem;
+}

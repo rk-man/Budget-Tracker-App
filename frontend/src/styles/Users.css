@@ -1,0 +1,46 @@
+.search-bar {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.search-input {
+    width: 80%;
+    padding: 1rem;
+    font-size: 1.6rem;
+    text-align: center;
+    outline: none;
+    border: 0.2rem solid var(--primary-color);
+    border-radius: 0.4rem;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+}
+
+.searchd-user-info {
+    width: 30%;
+    margin: 4rem auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+    font-weight: 500;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 1rem;
+}
+
+.searchd-user-info-username {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.profile-img-wrapper {
+    width: 4rem;
+    height: 4rem;
+}
