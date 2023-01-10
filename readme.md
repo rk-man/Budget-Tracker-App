@@ -23,6 +23,6 @@
 
 ### To use frontend
 
-1. create a .env file and set `REACT_APP_BACKEND_URL=http://localhost:8000`
-2. go the root folder, run `npm install` to install the dependencies
+1. After cloning the repository, create a .env file and set `REACT_APP_BACKEND_URL=http://localhost:8000` on the root folder(frontend)
+2. run `npm install` to install the dependencies
 3. `npm run start` to run the application
