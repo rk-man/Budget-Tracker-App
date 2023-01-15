@@ -1,5 +1,7 @@
 # Budget Tracker App
 
+![Home Page](https://res.cloudinary.com/rk-man/image/upload/v1673756485/bxcsmc995w9wccr6oxqb.jpg)
+
 ### To Use this backend
 
 1. Clone you respository or download the zip file
@@ -8,7 +10,7 @@
 
     - helps you use your django project in a seperate environment
 
-3. go to the root folder(backend) -> pip install -r requirements.txt
+3. go to the root folder(backend) -> `pip install -r requirements.txt`
 
     - This will install all the dependencies in your new environment
 
