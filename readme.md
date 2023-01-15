@@ -8,7 +8,7 @@
 
     - helps you use your django project in a seperate environment
 
-3. go to the root folder -> pip install -r requirements.txt
+3. go to the root folder(backend) -> pip install -r requirements.txt
 
     - This will install all the dependencies in your new environment
 
@@ -23,6 +23,6 @@
 
 ### To use frontend
 
-1. create a .env file and set `REACT_APP_BACKEND_URL=http://localhost:8000`
-2. go the root folder, run `npm install` to install the dependencies
+1. After cloning the repository, create a .env file and set `REACT_APP_BACKEND_URL=http://localhost:8000` on the root folder(frontend)
+2. run `npm install` to install the dependencies
 3. `npm run start` to run the application
