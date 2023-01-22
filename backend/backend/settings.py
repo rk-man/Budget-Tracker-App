@@ -127,8 +127,11 @@ DATABASES = {
 }
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> parent of 8c53763 (Merge pull request #1 from rk-man/frontend)
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
