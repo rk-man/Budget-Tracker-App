@@ -28,7 +28,7 @@ SECRET_KEY = "django-insecure-kmx($^fplii(rg4cpca@8v657+1*e6p)tyxu=z1ga4aa%8rfbz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["https://budget-tracker-rk.netlify.app/"]
 CORS_ALLOW_ALL_ORIGINS = True
 
 
