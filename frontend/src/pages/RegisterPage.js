@@ -42,7 +42,7 @@ function RegisterPage() {
     return (
         <div className="form-wrapper">
             <form className="form" onSubmit={handleSubmit}>
-                <h2>Login here</h2>
+                <h2>Register here</h2>
                 <div className="form-field">
                     <label htmlFor="email" className="form-label">
                         Email

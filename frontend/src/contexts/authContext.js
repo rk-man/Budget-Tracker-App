@@ -103,7 +103,7 @@ export function AuthProvider({ children }) {
                 user: null,
                 success: false,
                 error: true,
-                message: err.response.data.detail,
+                message: err.response.data.message,
             });
         }
     };
